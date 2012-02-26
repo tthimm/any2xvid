@@ -1,0 +1,9 @@
+ruby any2xvid.rb <file> --(lq OR hq) --(normal OR widescreen)
+
+defaults is --normal and --hq
+
+  --lq          (-ab 64k -ar 22050 -ac 1 -s vga -qscale 8)
+  --hq          (-ab 128k -ar 44100 -ac 2 -sameq)
+  --normal      (-aspect 4:3)
+  --widescreen  (-aspect 16:9)
+
